@@ -1,10 +1,10 @@
-打开任意网页
-点击插件图标
+Open any webpage
+Click the extension icon
 
-输入：
+Enter:
 
 apple, banana, orange
-选择是否“同一句”
-点击运行
+Select whether to require "within the same sentence"
+Click Run
 
-👉 只有同时包含三个词的段落才会被高亮
+👉 Only paragraphs containing all three words simultaneously will be highlighted.
