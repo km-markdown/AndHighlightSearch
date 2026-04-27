@@ -103,4 +103,68 @@ Your custom AND keyword highlighter is now installed and ready to use.
 
 ---
 
-、
+Here are the instructions rewritten as clear step-by-step guidance:
+
+---
+
+# 🌐 How to Use Local HTML Files in Chrome via a Python Web Server
+
+## 1. Open Command Prompt
+
+Open a Command Prompt (Windows) or Terminal (Mac/Linux).
+
+---
+
+## 2. Navigate to your project folder
+
+Use the `cd` command to go to the directory that contains your local HTML files.
+
+Example:
+
+```bash id="7h2kqv"
+cd path/to/your/folder
+```
+
+---
+
+## 3. Start a local web server using Python
+
+Run the following command:
+
+```bash id="k9v2mp"
+python -m http.server
+```
+
+---
+
+## 4. Open Chrome browser
+
+Launch Google Chrome.
+
+---
+
+## 5. Access your local server
+
+In the address bar, go to:
+
+```id="x8nq2s"
+http://127.0.0.1:8000
+```
+
+---
+
+## 6. View your files
+
+You will now see a directory listing of your local files, and you can click to open your HTML pages in the browser.
+
+---
+
+# ⚠️ Notes
+
+* Make sure Python is installed on your system.
+* Keep the Command Prompt/Terminal window open while using the server.
+* To stop the server, press `Ctrl + C` in the terminal.
+
+---
+
+
