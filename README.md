@@ -77,7 +77,7 @@ Click the puzzle icon 🧩 in Chrome toolbar, then:
 
 1. Open any webpage
 2. Click the extension icon
-3. Enter keywords
+3. Enter keywords  For Ex: Apple,Red,Green
 4. Click **“Start Highlight”**
 5. Use:
 
