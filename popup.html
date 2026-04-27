@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <style>
+    body { font-family: Arial; padding: 10px; width: 260px; }
+    input, button { width: 100%; margin-top: 6px; }
+
+    .row {
+      display: flex;
+      gap: 5px;
+    }
+
+    .row button {
+      width: 50%;
+    }
+  </style>
+</head>
+<body>
+
+<h3>AND Highlight Search</h3>
+
+<input id="keywords" placeholder="apple, banana, orange">
+
+<label>
+  <input type="checkbox" id="sentenceOnly">
+  Limited to the same sentence 
+</label>
+
+<button id="run">Start Highlighting</button>
+<div style="margin-top:10px; text-align:center; font-weight:bold;">
+  <span id="counter">0 / 0</span>
+</div>
+<div class="row">
+  <button id="prev">Prev</button>
+  <button id="next">Next</button>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>
